@@ -1,0 +1,20 @@
+/*Mobile: 375px, Desktop: 1440px*/
+root{
+    --cyan:hsl(179, 62%, 43%);
+    --brightYellow: hsl(71, 73%, 54%);
+    --lightGray: hsl(204, 43%, 93%);
+    --grayishBlue: hsl(218, 22%, 67%);
+}
+body{
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    background-color: var(--grayishBlue);
+}
+.contenedor{
+    max-width: 30rem;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 30%;
+}
